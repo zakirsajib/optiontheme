@@ -193,7 +193,7 @@ new backup_restore_theme_options();
 /**
  * Return default array of options
  */
-/*
+
 function wt_default_options() {
 	$options = array(
 		'wt_logo_url' => get_template_directory_uri().'/images/logo.png',	
@@ -288,11 +288,11 @@ function wt_default_options() {
 	);
 	return $options;
 }
-*/
+
 /**
  * Sanitize and validate options
  */
-/*
+
 function wt_validate_options( $input ) {
 	$submit = ( ! empty( $input['submit'] ) ? true : false );
 	$reset = ( ! empty( $input['reset'] ) ? true : false );
@@ -446,6 +446,15 @@ function wt_validate_options( $input ) {
 		
 	endif;
 }
-*/
 
+if ( ! function_exists( 'theme_get_option' ) ) :
+/**
+ * Used to output theme options is an elegant way
+ * @uses get_option() To retrieve the options array
+ */
+function theme_get_option( $option ) {
+	$options = get_option( 'theme_option', wt_default_options() );
+	return $options[ $option ];
+}
+endif;
 ?>

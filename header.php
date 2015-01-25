@@ -34,13 +34,14 @@
 <?php wp_head();?>
 <?php 
 /*Custom stylesheet input by user in options->css*/
-get_template_part('css/custom', 'style');?>
+//get_template_part('css/custom', 'style');?>
 </head>
 		
 <body <?php body_class(); ?>>
  
 		<div class="logo">
-			
+				<a href="<?php echo home_url();?>" title="Click here to go to home page">
+				<img src="<?php echo theme_get_option( 'logo' ); ?>" alt="<?php bloginfo('name'); ?> <?php bloginfo('description'); ?>"/></a>
 		</div>
   	
  		
