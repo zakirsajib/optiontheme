@@ -1,3 +1,9 @@
+README
+-------
+This is a basic options panel for a theme which could be for learning for any new developers.
+
+
+
 <b>Instructions</b>
 
 Add following line inside functions.php file.
