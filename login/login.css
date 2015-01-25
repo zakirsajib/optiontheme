@@ -1,0 +1,84 @@
+html{
+	background: #4D4D4D;
+}
+			
+body.login {
+	background: #4D4D4D center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+.login form, 
+div.updated, 
+.login .message{
+	background: none repeat scroll 0 0 rgba(105, 105, 105, 0.55);
+	border:none;
+	-moz-box-shadow:0;
+	-webkit-box-shadow:0;
+	-ms-box-shadow:0;
+	box-shadow:0;
+}
+.login label{ color: #B3B3B3; font-size:13px;}
+
+.login form{
+	padding:15px;
+}
+
+div.updated, 
+.login .message{
+	color:#B3B3B3;
+	border:none;
+}
+
+.login #nav{
+	margin:15px 0 0;
+}
+
+.login #backtoblog{
+	margin:5px 0 0;
+}
+
+.login #nav, 
+.login #backtoblog{
+	text-shadow:0!important;
+}
+
+.login #nav a, 
+.login #backtoblog a{
+	color:#B3B3B3;
+}
+
+.login #nav a:hover, 
+.login #backtoblog a:hover{
+	color:#82BC00;
+}
+
+
+.login form .input, 
+.login input[type="text"]{
+    height: 35px;
+    margin-top: 5px;
+    padding: 0 15px;
+    background: #2d2d2d;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: #B3B3B3;
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    font-size:18px;
+    border:0;
+}
+
+.login form .input:focus, 
+.login input[type="text"]:focus{
+    outline: none;
+    border:1px solid;
+}
