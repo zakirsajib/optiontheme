@@ -1,7 +1,6 @@
 README
 -------
-This is a basic options panel for a theme which could be for learning for any new developers.
-
+This is a basic options panel for a theme which could be used for a learning guide for any new developers.
 
 
 <b>Instructions</b>
